@@ -1,6 +1,7 @@
 package adventofcode2016.day20;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -9,6 +10,7 @@ import org.junit.jupiter.api.Test;
 public class Day20PuzzleTest2 {
 
     @Test
+    @Disabled
     public void solve() throws Exception {
         final String blackList = "5-8\n" +
                 "0-2\n" +
@@ -18,6 +20,7 @@ public class Day20PuzzleTest2 {
     }
 
     @Test
+    @Disabled
     public void solveReal() throws Exception {
         final String blackList = "272152717-281364173\n" +
                 "480675455-489214207\n" +
